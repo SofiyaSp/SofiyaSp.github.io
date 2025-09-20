@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sofiya Spolitak</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    h1 { color: #2c3e50; }
-    p { font-size: 18px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, I’m Sofiya 👋</h1>
-  <p>Welcome to my website!</p>
+  <header>
+    <nav>
+      <h1 class="logo">Sofiya Spolitak</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hello, I’m <span>Sofiya</span> 👋</h2>
+    <p>I’m a 5th year Electrical Engineering student specialized in ASIC Digital Design and VLSI.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Write a short paragraph about who you are, what you do, and what you’re
+      passionate about.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>Brief description of your project goes here.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Another description here.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sofiyaspolitak12@gmail.com">sofiyaspolitak12@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/SofiyaSp">SofiyaSp</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sofiya Spolitak. All rights reserved.</p>
+  </footer>
 </body>
 </html>
